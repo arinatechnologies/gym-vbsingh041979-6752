@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+            <html lang="en">
+            <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>gym the great | Gallery</title>
+            <link rel="stylesheet" href="css/base.css" />
+            <link rel="stylesheet" href="css/gallery.css" />
+            </head>
+            <body>
+            <header class="site-header">
+  <div class="header-container">
+    <a href="index.html" class="logo">gym the great</a>
+    
+    <button class="menu-toggle" aria-label="Toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+            <main class="gallery-page">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Our Fitness Portfolio</h1>
+      <p class="hero-subtitle">Where dedication meets design</p>
+    </div>
+  </section>
+
+  <!-- Filter Buttons -->
+  <section class="gallery-controls">
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="training">Training Spaces</button>
+      <button class="filter-btn" data-filter="equipment">Premium Equipment</button>
+      <button class="filter-btn" data-filter="wellness">Wellness Areas</button>
+      <button class="filter-btn" data-filter="lounge">Member Lounges</button>
+    </div>
+  </section>
+
+  <!-- Masonry Gallery -->
+  <section class="gallery-container">
+    <div class="masonry-grid">
+      <!-- Item 1 -->
+      <a href="#" class="gallery-item" data-category="training" data-modal="modal1">
+        <img src="images/gallery1.jpg" alt="Functional training zone">
+        <div class="item-overlay">
+          <h3>Functional Training Zone</h3>
+          <p>Versatile space for dynamic workouts</p>
+        </div>
+      </a>
+      
+      <!-- Item 2 -->
+      <a href="#" class="gallery-item" data-category="equipment" data-modal="modal2">
+        <img src="images/gallery2.jpg" alt="Olympic lifting platforms">
+        <div class="item-overlay">
+          <h3>Olympic Lifting Platforms</h3>
+          <p>Professional-grade equipment for serious athletes</p>
+        </div>
+      </a>
+      
+      <!-- 10 more items following same pattern with different categories -->
+      <!-- Item 3 -->
+      <a href="#" class="gallery-item" data-category="wellness" data-modal="modal3">
+        <img src="images/gallery3.jpg" alt="Hydrotherapy pool">
+        <div class="item-overlay">
+          <h3>Hydrotherapy Pool</h3>
+          <p>Recovery-focused aquatic environment</p>
+        </div>
+      </a>
+      
+      <!-- Item 4 -->
+      <a href="#" class="gallery-item" data-category="lounge" data-modal="modal4">
+        <img src="images/gallery4.jpg" alt="Premium member lounge">
+        <div class="item-overlay">
+          <h3>Premium Member Lounge</h3>
+          <p>Elegant relaxation space with refreshments</p>
+        </div>
+      </a>
+      
+      <!-- Items 5-12 would continue here with different categories -->
+    </div>
+    
+    <button class="load-more">Load More</button>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2 class="section-title">Trusted by Elite Athletes</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial">
+        <i class="ph ph-trophy"></i>
+        <blockquote>"gym the great transformed my training regimen with their world-class facilities."</blockquote>
+        <cite>- Professional Athlete</cite>
+      </div>
+      <div class="testimonial">
+        <i class="ph ph-heartbeat"></i>
+        <blockquote>"The attention to detail in their wellness areas is unmatched in the industry."</blockquote>
+        <cite>- Fitness Influencer</cite>
+      </div>
+      <div class="testimonial">
+        <i class="ph ph-star"></i>
+        <blockquote>"Every piece of equipment is meticulously maintained and cutting-edge."</blockquote>
+        <cite>- Olympic Coach</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="cta-content">
+      <h2>Ready to Elevate Your Training?</h2>
+      <p>Schedule a tour of our world-class facilities today.</p>
+      <button class="cta-button">Book a Consultation</button>
+    </div>
+  </section>
+
+  <!-- Modal Structure (Hidden by default) -->
+  <div class="modal" id="modal1">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <img src="images/gallery1.jpg" alt="Functional training zone">
+      <div class="modal-text">
+        <h3>Functional Training Zone</h3>
+        <p>This versatile space features:</p>
+        <ul>
+          <li>Adjustable rig systems</li>
+          <li>Turf running lanes</li>
+          <li>Battle ropes and sleds</li>
+          <li>Customizable lighting</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Additional modals would be here for other items -->
+</main>
+
+            <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-content">
+      <div class="footer-logo">gym the great</div>
+      
+      <div class="footer-links">
+        <ul class="footer-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" aria-label="Twitter">Twitter</a>
+        </div>
+      </div>
+      
+      <div class="footer-info">
+        <p>123 Fitness Street, Health City, HC 12345</p>
+        <p>Email: info@gymthegreat.com</p>
+        <p>Phone: (123) 456-7890</p>
+      </div>
+    </div>
+    
+    <div class="copyright">
+      <p>&copy; <span id="year"></span> Gym the Great. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+            <script src="js/base.js"></script>
+            <script src="js/gallery.js"></script>
+            </body>
+            </html>
+            
